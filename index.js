@@ -23,6 +23,8 @@ function iLoveTheBeatles(n) {
   var love = "I love the Beatles!"
   do {
     
-    array.push(love)
+    array[n] = love 
+  } while (n < 15) {
+    
   }
 }
