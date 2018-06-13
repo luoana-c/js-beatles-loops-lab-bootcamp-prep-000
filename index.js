@@ -24,7 +24,7 @@ function iLoveTheBeatles(n) {
 
   do {
     
-    array[n] = love;
+    array.unshift(love);
     n++;
   } while (n < 15);
   return array;
